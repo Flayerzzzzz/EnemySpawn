@@ -9,7 +9,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float _timeBetweenSpawn;
 
     private Transform[] _points;
-    
 
     public void Start()
     {
@@ -33,6 +32,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 i = -1;
             }
+
             yield return new WaitForSeconds(_timeBetweenSpawn);
         }
     }
