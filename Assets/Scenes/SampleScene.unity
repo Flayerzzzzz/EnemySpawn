@@ -220,9 +220,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99460e7310e1f2f4583f4e48cdba3804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 2939719595507516873, guid: 05d3ad4f8bb7f1848881535cd7090127, type: 3}
+  _enemy: {fileID: 4330418829064682417, guid: 05d3ad4f8bb7f1848881535cd7090127, type: 3}
   _spawnPoints: {fileID: 1464901255}
-  "_timeBetwee\u0442Spawn": 2
+  _timeBetweenSpawn: 2
 --- !u!1 &648540667
 GameObject:
   m_ObjectHideFlags: 0
